@@ -236,6 +236,7 @@ section{
     box-sizing: border-box;
     background: #ffe9af;
     border: 1px solid #e8cf8e;
+    resize: none;
 }
 
 form div label,input,.btn-form {
