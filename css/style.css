@@ -63,19 +63,26 @@ section{
  
  }
  
- .topbar li{
+nav li{
     display: inline;
     padding: 0 20px;
  
  }
  
-.topbar li a{
+nav li a{
     text-decoration: none;
     list-style-type: none;
     text-transform: uppercase; 
     font-family: 'Asap', sans-serif;
-    color: #fff;
+    color: #ffffff;
     font-size: 14px;
+ }
+
+.quero-agora{
+     color: #fedd6a;
+     border: 1px solid #fedd6a;
+     border-radius: 4px;
+     padding: 10px;
  }
  
  /* Header */
@@ -95,7 +102,7 @@ section{
  }
  
  header div{
-    max-width: 52%;
+    max-width: 800px;
  }
  
  .btn {
@@ -114,6 +121,10 @@ section{
  
  /* Seção Sobre */
  
+ .titulo{
+     text-align: left;
+ }
+
  .sobre{
     padding-top: 60px;
  }
@@ -138,14 +149,16 @@ section{
  
  .img-grupo{
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: center;
  }
  
  .img-grupo div{
     width:300px;
+    height: 200px;
     padding: 0 40px;
     text-align: center;
+    margin-bottom: 30px;
  }
  
  /* Seção Serviços */   
@@ -229,7 +242,7 @@ section{
 
 .formulario form input, textarea{
     margin: 0;
-    padding: 5px 0;
+    padding: 5px 10px;
     font-family: 'Asap', Arial, sans-serif;
     font-size: 14px;
     line-height: 1.5em;
@@ -315,7 +328,7 @@ form div label,input,.btn-form {
 
 .novidades form input{
     margin: 0;
-    padding: 5px 0;
+    padding: 5px 10px;
     font-family: 'Asap', Arial, sans-serif;
     font-size: 16px;
     line-height: 22px;
@@ -324,17 +337,19 @@ form div label,input,.btn-form {
 
 /* Seção Footer */
 
-.footer{
+footer{
     background-color: #333333;
+    padding: 30px 0 50px 0;
 }
 
-.footer ul li {
+footer ul li {
     text-align: left;
     list-style-type: none;
+    display: block;
 
 }
 
-.footer li a{
+footer li a{
     text-decoration: none;
     text-transform: uppercase; 
     font-family: 'Flamenco', cursive;
@@ -343,7 +358,7 @@ form div label,input,.btn-form {
 }
 
 
-.footer p{
+footer p{
     font-size: 11px;
     color: #fff;
 }
